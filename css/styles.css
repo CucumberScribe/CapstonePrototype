@@ -37,6 +37,19 @@ main {
 	font-size: 1.15em; 
 }
 
+#bodBudj {
+	text-align: center;
+}
+
+#bodBudj img {
+	padding: 0 5%;
+	max-width: 15%;
+}
+
+input[type="radio"]{
+  margin: 0 3% 4% 3%;
+}
+
 #form {
 	margin-top: 2%;
 	padding: 2%;
@@ -73,6 +86,11 @@ fieldset legend {
 
 .btn {
 	border-radius: 12px;
+	margin: 0 auto;
+	padding: 1% 2%;
+	background-color: #296DAC;
+	color: #F5F5F5;
+	font-size: 1.5em;
 }
 
 footer {
@@ -118,7 +136,14 @@ footer p {
 	main {
 		min-height: 0px;
 	}
+	
+	#bodBudj img {
+		max-width: 35%;
+	}
 
+	h2 {
+		font-size: 1em;
+	}
 	
 
 }
@@ -140,6 +165,13 @@ footer p {
 		min-height: 0px;
 	}
 
+	#bodBudj img {
+		max-width: 35%;
+	}
+	
+	h2 {
+		font-size: 1em;
+	}
 	
 
 }
