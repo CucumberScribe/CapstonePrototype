@@ -7,6 +7,15 @@ header img {
 	max-width: 30%;
 }
 
+nav {
+	float: right;
+	width: 70%;
+}
+
+nav ul {
+	text-align: right;
+}
+
 footer {
 	background-color: #363636;
 }
