@@ -5,7 +5,7 @@ main, head, body, footer, header {
     background-color: #363636;
 }
 
-main, header, nav {
+main, header {
 	background-color: #fff;
 }
 
@@ -80,6 +80,33 @@ fieldset legend {
 	font-size: 1.25em;
 }
 
+nav {
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	display: block;
+}
+
+nav li {
+	margin: 5% auto;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+nav li a {
+	font-size: 1.5em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	color: #f5f5f5;
+	font-size: 1.5em;
+}
+
+nav li:last-child {
+	border-bottom: none;
+}
+
 #submit {
 	margin: 0 auto;
 	display: block;
@@ -116,21 +143,28 @@ footer p {
 }
 
 /* Tablet Viewport */
-@media screen and (max-width: 630px) {
+@media screen and (min-width: 630px) {
 
 	header {
 		width: 100%;
 	}
 
-	nav {
-		width: 100%;
+	nav ul {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-gap: 20px;
 	}
 
 	nav li {
-		list-style-type: none;
-		text-align: center;
-		display: inline-block;
-		
+		border-right: solid 5px #CBC3E3;
+	}
+
+	nav li a:hover {
+		text-decoration: underline;
+	}
+
+	nav li:last-child {
+		border-right: none;
 	}
 
 	.loginPage {
@@ -155,28 +189,5 @@ footer p {
 
 /* Desktop Viewport */
 @media screen and (max-width: 769px) {
-
-	header {
-		width: 100%;
-	}
-
-	nav {
-		float: right;
-		margin: 4em 1em 0 0;
-	}
-
-
-	main {
-		min-height: 0px;
-	}
-
-	#bodBudj img {
-		max-width: 35%;
-	}
-	
-	h2 {
-		font-size: 1em;
-	}
-	
 
 }
