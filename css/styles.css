@@ -46,6 +46,11 @@ main {
 	max-width: 15%;
 }
 
+#bodBudj img {
+	padding: 0 5%;
+	max-width: 15%;
+}
+
 input[type="radio"]{
   margin: 0 3% 4% 3%;
 }
