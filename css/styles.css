@@ -125,6 +125,40 @@ nav li:last-child {
 	font-size: 1.5em;
 }
 
+#mad {
+	background-color: #FF6E6E;
+	color: #000;
+}
+
+#scared {
+	background-color: #FFB265;
+	color: #000;
+}
+
+#joyful {
+	background-color: #FFFF8C;
+	color: #000;
+}
+
+#powerful {
+	background-color: #80FF80;
+	color: #000;
+}
+
+#peaceful {
+	background-color: #6565FF;
+	color: #F5F5F5;
+}
+
+#sad {
+	background-color: #FF80FF;
+	color: #000;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
 footer {
 	background-color: #363636;
 	width: 100%;
@@ -142,8 +176,22 @@ footer p {
 	padding: 3%;
 }
 
+#buttonSelect h2 {
+	text-align: center;
+	padding: 0 0 4% 0;
+}
+
+#buttonSelect .btn {
+	display: block;
+	min-width: 320px;
+	margin: 2% auto;
+	border: solid #000;
+	border-width: medium;
+	font-weight: bold;
+}
+
 /* Tablet Viewport */
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 1px) {
 
 	header {
 		width: 100%;
@@ -181,13 +229,27 @@ footer p {
 	}
 
 	h2 {
-		font-size: 1em;
+		font-size: 1.5em;
+	}
+	
+	#buttonSelect .btn {
+		min-width: 80%;
+		margin: 4% auto;
 	}
 	
 
 }
 
 /* Desktop Viewport */
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 769px) {
 
+	h2 {
+	font-size: 2em;
+	}
+	
+	#buttonSelect .btn {
+		min-width: 50%;
+		margin: 2% auto;
+	}
+	
 }
