@@ -219,10 +219,6 @@ footer p {
 		text-decoration: underline;
 	}
 
-	nav li:last-child {
-		
-	}
-
 	.loginPage {
 		display: block;
 		margin: 2% 15%;
@@ -253,6 +249,7 @@ footer p {
 
 	nav ul {
 		width: 40%;
+		padding-left: 20px;
 	}
 
 	h2 {
